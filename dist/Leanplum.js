@@ -1,5 +1,4 @@
 import { NativeModules } from 'react-native';
-import { LPInbox } from './LPInbox';
 ;
 ;
 export const Leanplum = {
@@ -298,6 +297,6 @@ export const Leanplum = {
      * Returns an instance to the singleton LPInbox object.
      */
     inbox: () => {
-        return LPInbox;
+        // return LPInbox;
     }
 };
