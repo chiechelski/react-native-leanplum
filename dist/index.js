@@ -1,3 +1,3 @@
 export * from './Leanplum';
-// export * from './LPInbox';
-// export * from './LPInboxMessage'; 
+export * from './LPInbox';
+export * from './LPInboxMessage';
